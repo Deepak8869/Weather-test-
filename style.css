@@ -1,0 +1,62 @@
+.nav-item{
+    cursor: pointer;
+    padding: 10px ;
+    transform-style: preserve-3d;
+}
+.nav-item a:hover{
+    color: #ff7a59;
+    border: #ff7a59 solid 1px;
+    background:#fff;
+}
+/*contact form css*/
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,textarea{
+    width: 100%;
+    padding:12px;
+    margin: 7px;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+fieldset{
+    background-color:#F9F9F9;
+    border: 1px solid white; 
+    width:100%;
+    border-radius: 6px;  
+}
+input[type="submit"]{
+    background-color:rgb(5, 250, 5);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    border-radius: 35px;
+    padding: 12px;
+    border: 1px solid wheat;
+    cursor: pointer;
+    width: 114px;
+}
+    input[type="submit"]{
+        background-color:rgb(0, 157, 255);
+        color: white;
+        text-align: center;
+        border-radius: 35px;
+        padding: 12px;
+        border: 1px solid wheat;
+        cursor: pointer; 
+    }
+    input[type="submit"]:hover{
+        color:rgb(0, 157, 255); ;
+        background-color:white;
+    }
+    .object{
+        background-color: #FDF6EC;
+        padding: 19px 59px 25px 32px;
+        border:1px solid green;  
+        border-radius: 7px; 
+        margin:12px 12px;  
+    }
+
